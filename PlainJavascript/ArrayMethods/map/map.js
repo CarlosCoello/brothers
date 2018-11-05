@@ -82,9 +82,9 @@ let getNames = users.map(function(user){
 // extraimos del array original en esta ocasion los nombres con el map :)
 console.log(getNames); // ['john smith', 'carlos lopez', 'luis young','david orourke']
 
-let capitalizeFirstLetter = users.map(function(user){
+let capitalizeName = users.map(function(user){
    user.name = user.name.toUpperCase();
    return user;
 })
 
-console.log(capitalizeFirstLetter);
+console.log(capitalizeName);
