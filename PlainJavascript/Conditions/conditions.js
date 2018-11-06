@@ -58,3 +58,7 @@ sumFunc(2, '5');
 // al correr la funcion con los argumentos adecuados vemos que las condiciones se cumplen y nos regresa la respuesta correcta sumanddo los numeros pasados.
 const res = sumFunc(2,5);
 console.log(res);
+
+/*
+Tambien se usan condiciones para ahorrar tiempo en la logica, para que correr codigo si no tenemosla informacion correcta
+*/
