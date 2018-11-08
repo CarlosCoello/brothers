@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table Component</title>
+    <style>
+        .table-container {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        thead {
+            background-color: #eee;
+        }
+
+        table, td {
+            border: 1px solid;
+            border-collapse: collapse;
+            padding: 1rem;
+        }
+
+        @media only screen and (max-width: 900px){
+            .table-container {
+                width: 100%;
+                overflow-x: auto; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table id="table">
+    </div>
+    </table>
+    <script src="./index.js"></script>
+</body>
+</html>
